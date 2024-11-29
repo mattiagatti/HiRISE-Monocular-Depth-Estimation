@@ -36,7 +36,7 @@ Divide generated tiles in train, validation and test splits:
 python splits/generate_splits.py
 ```
 
-After downloading backbone weights from [here](https://deci-pretrained-models.s3.amazonaws.com/mit_backbones/mit_b4.pth), place the file in glpdepth/weights, and then train the model:
+Once you have downloaded the backbone weights from [here](https://deci-pretrained-models.s3.amazonaws.com/mit_backbones/mit_b4.pth), place the file in the glpdepth/weights folder and then train the model:
 ``` console
 nohup python train.py --batch_size 4 > train.log 2>&1 &
 ```
