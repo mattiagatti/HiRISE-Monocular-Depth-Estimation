@@ -1,0 +1,4 @@
+lightning_logs
+.venv
+*.log
+__pycache__
